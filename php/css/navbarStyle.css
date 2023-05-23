@@ -1,0 +1,40 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: white;
+  height: 60px;
+}
+
+.header_menu {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.header_menu li {
+  display: inline;
+  margin: 5px;
+  letter-spacing: 1px;
+}
+
+.header_menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+
+.header_menu a:hover {
+  color: rgb(83, 83, 201);
+}
+
+input[type="submit"] {
+  margin-right: 10px;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
